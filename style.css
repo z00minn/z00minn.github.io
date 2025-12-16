@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Georgia, serif;
-  background: #ffffff;
-  color: #111;
+  background: linear-gradient(180deg, #111827, #1f2937);
+  color: #e5e7eb;
 }
 
 .container {
@@ -65,4 +65,37 @@ ul {
 
 li {
   margin-bottom: 10px;
+}
+
+/* Publications Cards */
+
+.pub-card {
+  background: #1f2937;              /* dark slate */
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin-bottom: 18px;
+  border-left: 4px solid #3b82f6;   /* blue accent */
+}
+
+.pub-title {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #60a5fa;                   /* blue title */
+  margin-bottom: 6px;
+}
+
+.pub-venue {
+  background: #334155;
+  color: #93c5fd;
+  font-size: 0.75em;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.pub-authors {
+  font-size: 0.9em;
+  color: #d1d5db;                   /* light gray */
 }
