@@ -1,32 +1,76 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>나의 홈페이지</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    header { text-align: center; margin-bottom: 30px; }
-    h1 { font-size: 2em; }
-    section { margin-top: 20px; }
-  </style>
+  <title>Jumin Kim</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>안녕하세요, 저는 [Name]입니다.</h1>
-    <p>GitHub Pages로 만든 개인 홈페이지입니다.</p>
-  </header>
+<div class="container">
 
-  <section>
-    <h2>About Me</h2>
-    <p>자기소개를 여기에 적습니다.</p>
-  </section>
+  <!-- LEFT COLUMN -->
+  <div class="sidebar">
+    <h1>Jumin Kim</h1>
+    <p class="affiliation">
+      Ph.D. Student<br>
+      Computer Architecture
+    </p>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/yourname/project1">프로젝트 1</a></li>
-      <li><a href="https://github.com/yourname/project2">프로젝트 2</a></li>
-    </ul>
-  </section>
+    <p class="contact">
+      jumin.kim@university.edu
+    </p>
+
+    <div class="links">
+      <a href="https://github.com/z00minn">GitHub</a><br>
+      <a href="#">Google Scholar</a><br>
+      <a href="#">CV (PDF)</a>
+    </div>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div class="content">
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a Ph.D. student working on computer architecture and memory systems,
+        with a particular focus on DRAM reliability, RowHammer mitigation,
+        and error correction mechanisms.
+      </p>
+    </section>
+
+    <section>
+      <h2>Publications</h2>
+      <ul>
+        <li>
+          <b>RowArmor:</b> Mitigating Multi-Aggressor RowHammer Attacks<br>
+          <i>ISCA 2026 (to appear)</i>
+        </li>
+        <li>
+          <b>Chronus:</b> Practical RowHammer Defense on Real Hardware<br>
+          <i>HPCA 2026 (Best of CAL)</i>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>RowArmor</li>
+        <li>Chronus</li>
+        <li>PVAC / QPRAC Simulation Framework</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Service</h2>
+      <ul>
+        <li>Artifact Evaluation Committee (ISCA, HPCA)</li>
+      </ul>
+    </section>
+
+  </div>
+</div>
 </body>
 </html>
